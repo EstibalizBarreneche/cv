@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Estibaliz's Personal Site | Contacto</title>
+  </head>
+  <body>
+    <h3>Contacto</h3>
+    <h4>email: <span>estibalizbarreneche@gmail.com</span></h4>
+
+    <hr size="3" noshade />
+
+    <form
+      action="mailto:estibalizbarreneche@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Tu nombre</label>
+      <input
+        type="text"
+        name="tu-nombre"
+        placeholder="Tu nombre"
+        required
+      /><br />
+      <label for="email">Tu email</label>
+      <input
+        type="email"
+        name="tu-email"
+        placeholder="mail@domain"
+        required
+      /><br />
+      <label for="message">Mensaje</label><br />
+      <textarea
+        name="tu.mensaje"
+        cols="40"
+        rows="10"
+        placeholder="Escribe tu mensaje"
+      ></textarea
+      ><br />
+      <input type="submit" name="submit" value="Enviar" />
+      <input type="reset" value="Cancelar" />
+    </form>
+  </body>
+</html>
